@@ -1,0 +1,747 @@
+body {
+	background: #FFF;
+	min-width: 1024px;
+}
+
+.container {
+	width: 1004px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.main-header .container {
+	padding-top: 40px;
+}
+
+.clearfix{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.logo {
+	float: left;
+	font-size: 36px;
+	line-height: 30px;
+	font-family: 'Poiret One', cursive;
+	color: #ee8129;
+}
+
+.company-name {
+	margin-left: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #3070a8;
+}
+
+.main-navigation {
+	float: right;
+}
+
+.main-navigation ul {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	list-style: none;
+}
+
+.main-navigation li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+	color: #989898;
+	padding: 19px 20px 36px;
+}
+
+.main-navigation .active a {
+	position: relative;
+	color: #3070a8;
+}
+
+.main-navigation a:hover{
+	color: #3070a8;
+}
+
+.main-navigation .active a:after{
+	content: "";
+	background: #3070a8;;
+	position: absolute;
+	height: 4px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+/*Heder style*/
+
+.banner {
+	width: 1400px;
+	height: 586px;
+	margin: 0 auto;
+	background: #3070a8 url("img/banner-bg.jpg") no-repeat center top;
+	margin-bottom: 65px;
+}
+
+.banner .container {
+	text-align: center;
+	padding-top: 138px;
+}
+
+.banner-header-text {
+	margin-bottom: 30px;
+}
+
+.banner-header-text p {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	color: #fff;
+}
+
+p .techologies {
+	font-weight: 400;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+.banner-footer-text {
+	margin-bottom: 70px;
+}
+
+.banner-footer-text p {
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 30px;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.26);
+	color: #fff;
+}
+
+.btn {
+	padding: 20px 65px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	border: 1px solid rgba(255, 255, 255, .5);
+	outline: none;
+	cursor: pointer;
+}
+/*Banner style*/
+.services {
+	margin: 0 auto;
+	margin-bottom: 65px;
+}
+
+.services .container {
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.services-title h1 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 70px;
+	font-family: "Trebuchet MS";
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #41525c;
+}
+
+.services-row {
+	margin: 0 auto;
+}
+
+.services-item {
+	float: left;
+	margin-right: 40px;
+	text-align: center;
+	width: 300px;
+}
+
+.services-item:last-child{
+	margin-right: 0;
+}
+
+.services-item-title {
+	position: relative;
+	padding-top: 170px;
+	margin-bottom: 23px;
+	font-family: "Trebuchet MS";
+	font-size: 30px;
+	font-weight: 300;
+	color: #3070a8;
+}
+
+.first-service:before{
+	position: absolute;
+	left: 85px;
+	top: 0;
+	content: "";
+	width: 141px;
+	height: 140px;
+	background: transparent url("img/sprite.png") no-repeat;
+	display: block;
+	background-position: -2px -286px;
+}
+
+.second-service:before{
+	position: absolute;
+	left: 85px;
+	top: 0;
+	content: "";
+	width: 141px;
+	height: 141px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -2px -0px;
+	display: block;
+}
+
+.third-service:before{
+	position: absolute;
+	left: 85px;
+	top: 0;
+	content: "";
+	width: 141px;
+	height: 141px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -2px -143px;
+	display: block;
+}
+
+.services-item p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #999;
+}
+/*Services style*/
+
+.middle-section {
+	width: 1400px;
+	height: 577px;
+	margin: 0 auto;
+	margin-bottom: 65px;
+	background: #2d3034 url("img/middle-bg.jpg") no-repeat center top;
+}
+
+.middle-section .container {
+	padding-top: 80px;
+}
+
+.middle-section-title h2{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+	font-family: "Trebuchet MS";
+	font-size: 26px;
+	line-height: 48px;
+	text-transform: uppercase;
+	color: #ee8129;
+}
+
+.middle-section-description h3{
+
+	margin-bottom: 37px;
+	font-family: "Trebuchet MS";
+	font-size: 19px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.middle-section-list {
+	width: 675px;
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	color: #9d9d9d;
+	line-height: 30px;
+}
+
+.middle-section-list ul {
+	margin: 0;
+	padding: 0;
+	list-style-image: url("img/ul-icon-gray.png");
+	margin-left: 30px;
+}
+
+.middle-section-list li {
+	margin-bottom: 12px;
+}
+
+.middle-section-list ul li:nth-child(2n) {
+	color: #3070a8;
+	list-style-image: url("img/ul-icon-blue.png");
+	
+
+}
+/*Middle section style*/
+
+.pricing {
+	width: 1400px;
+	margin: 0 auto;
+	margin-bottom: 65px;
+}
+
+.pricing .container {
+	margin: 0 auto;
+	font-family: "Trebuchet MS";
+	text-align: center;
+}
+
+.pricing-main-title h1 {
+	font-size: 30px;
+	line-height: 25px;
+	color: #41525c;
+	margin-bottom: 55px;
+}
+
+.pricing-row {
+	margin: 0 auto;
+	vertical-align: baseline;
+}
+
+.pricing-item {
+	display: inline-block;
+	width: 288px;
+}
+
+.pricing-title {
+	width: 288px;
+}
+
+.item-1,
+.item-3 {
+	border: 1px solid #e8eaec;
+	height: 440px;
+}
+
+.item-1 {
+	border-right: none;
+}
+
+.item-2 {
+	height: 460px;
+	border: 4px solid #ee8129;
+	-webkit-box-shadow: 0 0 13px #0874b2;
+	-moz-box-shadow: 0 0 13px #0874b2;
+	box-shadow: 0 0 13px #0874b2;
+}
+
+.item-3 {
+	border-left: none;
+}
+
+.item-1 .pricing-title h2{
+	margin: 0;
+	padding: 0;
+	height: 63px;
+	background-color: #37c2d3;
+
+}
+
+.item-2 .pricing-title h2{
+	margin: 0;
+	padding: 0;
+	height: 73px;
+	background-color: #ee8129;
+
+}
+
+.item-3 .pricing-title h2{
+	margin: 0;
+	padding: 0;
+	height: 63px;
+	background-color: #1cb79a;
+}
+
+.pricing-title h2,
+.pricing-inner-title h3 {
+	font-size: 24px;
+	line-height: 64px;
+	text-transform: uppercase;
+}
+
+.pricing-title h2 {
+	font-weight: bold;
+	color: #fff;
+}
+
+.pricing-inner-title h3 {
+	color: #3f4042;
+}
+
+.pricing-item {
+	margin: 0;
+	padding: 0;
+}
+
+.price-currency,
+.price-item, 
+.price-period {
+	margin-right: -10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.price-currency {
+	font-size: 36px;
+	line-height: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #35495a;
+	
+}
+
+.price-item {
+	margin-top: 16px;
+	font-size: 72px;
+	line-height: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #35495a;
+}
+
+.price-period {
+	margin-top: 43px;
+	font-size: 18px;
+	line-height: 60px;
+	color: #35495a;
+}
+
+
+.pricing-inner-features {
+	margin-left: 10px;
+	margin-bottom: 26px;
+	font-size: 15px;
+	color: #888c94;
+	text-align: left;
+}
+
+.pricing-inner-features ul {
+	margin: 0;
+	padding: 0;
+	list-style: outside none none;
+}
+
+.pricing-inner-features ul li {
+	width: 259px;
+	padding: 9px 0;
+	border-bottom: 1px solid #fff;
+	background-color: #e8f2fb;
+}
+
+.pricing-inner-features ul li:nth-child(2n) {
+	background-color: #f5f5f6;
+}
+
+.pricing-inner-features ul li:before {
+	float: left;
+	content: "";
+	width: 14px;
+	height: 15px;
+	margin-left: 33px;
+	margin-right: 17px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -73px -478px;
+}
+
+.btn-enrol {
+	width: 252px;
+	padding: 12px 30px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	-webkit-border-radius: 4px/5px;
+	-moz-border-radius: 4px/5px;
+	border-radius: 4px/5px;
+}
+
+.item-1 .btn-enrol {
+	background-color: #3371a6;
+	-webkit-box-shadow: 0 3px #16436a;
+	-moz-box-shadow: 0 3px #16436a;
+	box-shadow: 0 3px #16436a;
+	cursor: pointer;
+	outline: none;
+}
+
+.item-2 .btn-enrol {
+	background-color: #ee8129;
+	-webkit-box-shadow: 0 3px #b3560b;
+	-moz-box-shadow: 0 3px #b3560b;
+	box-shadow: 0 3px #b3560b;
+	cursor: pointer;
+	outline: none;
+}
+
+.item-3 .btn-enrol {
+	-webkit-box-shadow: 0 3px #16436a;
+	-moz-box-shadow: 0 3px #16436a;
+	box-shadow: 0 3px #16436a;
+	background-color: #3371a6;
+	outline: none;
+	cursor: pointer;
+}
+/*Pricing style*/
+
+.feedbacks {
+	font-family: "Trebuchet MS";
+	width: 1400px;
+	background: #161c23 url(img/bg.jpg) repeat;
+	margin: 0 auto;
+}
+
+.feedbacks-title {
+	text-align: center;
+	padding: 50px 0;
+}
+
+.feedbacks-title h1 {
+	font-size: 40px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #3170a8;
+}
+
+.feedbacks-title h1 span {
+	color: #ee8129;
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.feedback {
+	width: 1035px;
+	margin: 0 auto;
+}
+
+.feedback-wrap {
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 70px;
+}
+
+.feedback-user-avatar,
+.feedback-text-block {
+	float: left;
+}
+
+.feedback-user-avatar img {
+	width: 99px;
+	height: 98px;
+	background: #8b7c30;
+	vertical-align:bottom
+}
+
+.feedback-text-block {
+	position: relative;
+	width: 380px;
+	margin-left: 19px;
+	background-color: #f7f7f7;
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.17);
+	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.17);
+	box-shadow: 1px 1px 2px rgba(0,0,0,.17);
+	border: solid 1px #e0e0e0;
+}
+
+.feedback-text-block:before,
+.feedback-text-block:after {
+	position: absolute;
+	left: -24px;
+	top: 37px; 
+	content: "";
+	border: 12px solid transparent;	
+	border-right: 12px solid #e0e0e0;
+} 
+
+.feedback-text-block:after {
+    border-right: 12px solid #f7f7f7;
+    left: -23px;
+ }
+
+.feedback-user-info {
+	margin-left: 15px;
+	margin-right: 20px;
+	padding: 6px 0;
+	font-size: 13px;
+	line-height: 24px;
+	font-style: italic;
+	color: #3070a8;
+	border-bottom: dashed 1px #e0e0e0;
+}
+
+.feedback-user-customer {
+	float: right;
+	
+}
+
+.feedback-user-text {
+	padding: 5px 0;
+	margin-left: 15px;
+	margin-right: 50px;
+	font-size: 13px;
+	line-height: 25px;
+	color: #666;
+}
+
+.feedback-wrap:nth-child(2n) {
+	margin-right: 0;
+}
+/*Feedbacks style*/
+
+.main-footer {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.footer-info {
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	line-height: 36px;
+	color: #666;
+	margin-left: 250px;
+	margin-top: 42px;
+}
+
+.footer-info {
+	margin-bottom: 15px;
+}
+
+.footer-contacts {
+	float: left;
+}
+
+.footer-maps {
+	float: right;
+}
+
+.footer-maps img {
+	vertical-align:bottom
+}
+
+.footer-info .addres {
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.footer-info .addres:before {
+	position: absolute;
+	left: -65px;
+	content: "";
+	width: 23px;
+	height: 31px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -104px -427px;
+}
+
+.footer-info .telephone {
+	position: relative;
+}
+
+.footer-info .telephone:before {
+	position: absolute;
+	top: 5px;
+	left: -65px;
+	content: "";
+	width: 18px;
+	height: 26px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -53px -478px;
+}
+
+.footer-info .email {
+	position: relative;
+}
+
+.footer-info .email:before {
+	position: absolute;
+	left: -67px;
+	top: 9px;
+	content: "";
+	width: 23px;
+	height: 16px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -104px -460px;
+}
+
+.footer-social {
+	margin-left: 180px;
+}
+
+a.social-btn-fb:before {
+	float: left;
+	margin-right: 23px;
+	content: "";
+	width: 49px;
+	height: 48px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -2px -427px;
+}
+
+a.social-btn-tw:before {
+	float: left;
+	margin-right: 23px;
+	content: "";
+	width: 49px;
+	height: 48px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -2px -478px;
+}
+
+a.social-btn-in:before {
+	float: left;
+	content: "";
+	width: 49px;
+	height: 48px;
+	background: transparent url("img/sprite.png") no-repeat;
+	background-position: -53px -427px;
+}
+
+.footer-copyright {
+	width: 1404px;
+	margin: 0 auto;
+	padding: 25px 0;
+	font-family: "Trebuchet MS";
+	font-size: 14px;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #3070a8;
+}
+
+span.footer-company-name {
+	font-weight: 600;
+}
+
+a.footer-web-adress {
+	color: #1d1c1c;
+	text-decoration: none;
+}
+/*Footer style */

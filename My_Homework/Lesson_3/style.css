@@ -1,0 +1,64 @@
+body {
+    width: 600px;
+}
+
+/*Текст*/
+h1 {
+    text-align: right;
+    font-weight: bold;
+    color: orange;
+}
+p:first-letter {
+    font-size: 30px;
+    color: red;
+}
+em {
+    font-weight: bold;
+    color: #fff;
+    background-color: green;
+}
+/*Конец Текст*/
+
+/*Овощи и фрукты*/
+#allotment h2 {
+    font-weight: bold;
+    color: orange;
+}
+#warehouse h2 {
+    font-weight: bold;
+    color: #0000FF;
+}
+li {
+    font-weight: bold;
+}
+.fruits-list li,
+.vegetables-list li {
+    font-weight: normal;
+}
+.fruits-list li {
+    color: #A3A79F;
+}
+#warehouse .fruits-list li {
+    color: green;
+}
+.vegetables-list li {
+    color: #FF3D00;
+}
+/*Конец Овощи и фрукты*/
+
+/*Таблица*/
+thead {
+    text-align: center;
+    font-weight: bold;
+}
+tbody td {
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+tbody td:first-child {
+    text-align: left;
+    color: orange;
+    background-color: white;
+}
+/*Конец Таблица*/

@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.container {
+	width: 288px;
+	height: 460px;
+	margin: 50px auto;
+	font-family: "Trebuchet MS";
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 13px #0874b2;
+	-moz-box-shadow: 0 0 13px #0874b2;
+	box-shadow: 0 0 13px #0874b2;
+	border: 4px solid #ee8129;
+}

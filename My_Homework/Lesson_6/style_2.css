@@ -1,0 +1,106 @@
+.feedbacks {
+	width: 1400px;
+	margin: 0 auto;
+	font-family: "Trebuchet MS";
+	background: #161c23 url(img/bg.jpg) repeat;
+}
+
+.feedbacks-title {
+	text-align: center;
+	padding: 50px 0;
+}
+
+h1 {
+	font-size: 40px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #3170a8;
+}
+
+h1 span {
+	color: #ee8129;
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.feedback {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.feedback-wrap {
+	display: inline-block;
+	margin-right: 40px;
+	margin-bottom: 70px;
+}
+
+.feedback-user-avatar,
+.feedback-text-block {
+	float: left;
+}
+
+img {
+	width: 99px;
+	height: 98px;
+	background: #8b7c30;
+}
+
+.feedback-text-block {
+	position: relative;
+	width: 380px;
+	margin-left: 19px;
+	background-color: #f7f7f7;
+	-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.17);
+	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.17);
+	box-shadow: 1px 1px 2px rgba(0,0,0,.17);
+	border: solid 1px #e0e0e0;
+}
+
+.feedback-text-block:before,
+.feedback-text-block:after {
+	position: absolute;
+	left: -24px;
+	top: 37px; 
+	content: "";
+	border: 12px solid transparent;	
+	border-right: 12px solid #e0e0e0;
+	
+} 
+
+.feedback-text-block:after {
+    border-right: 12px solid #f7f7f7;
+    left: -23px;
+ }
+
+.feedback-user-info {
+	margin-left: 15px;
+	margin-right: 20px;
+	padding: 6px 0;
+	font-size: 13px;
+	line-height: 24px;
+	font-style: italic;
+	color: #3070a8;
+	border-bottom: dashed 1px #e0e0e0;
+}
+
+.feedback-user-customer {
+	float: right;
+	
+}
+
+.feedback-user-text {
+	padding: 5px 0;
+	margin-left: 15px;
+	margin-right: 50px;
+	font-size: 13px;
+	line-height: 25px;
+	color: #666;
+}
+
+.feedback-wrap:nth-child(2n) {
+	margin-right: 0;
+}

@@ -1,0 +1,72 @@
+.table {
+	width: 300px;
+	margin: 0 auto;
+	font-family: Arial, serif;
+	font-size: 18px;
+	text-align: justify;
+	color: rgba(0, 0, 0, 0);
+	text-shadow: 0px 0px 6px #000, 0px 0px 3px #000;
+}
+
+.table p:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+ 
+.line{
+	border-bottom: 1px solid red;
+}
+
+p {
+	text-align: justify;
+	line-height: 10px;
+}
+
+.row-1 {
+	font-size: 4em;
+}
+
+.row-2 {
+	font-size: 3em;
+}
+
+.row-3 {
+	font-size: 2em;
+}
+
+.row-4 {
+	font-size: 1.5em;
+}
+
+.row-5 {
+	font-size: 1.3em;
+}
+
+.row-6 {
+	font-size: 1.2em;
+}
+
+.row-7 {
+	font-size: 1.1em;
+}
+
+.row-8 {
+	font-size: 1.0em;
+}
+
+.row-9 {
+	font-size: 0.9em;
+}
+
+.row-10 {
+	font-size: 0.8em;
+}
+
+.row-11 {
+	font-size: 0.7em;
+}
+
+.row-12 {
+	font-size: 0.6em;
+}

@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: Impact;
+  text-transform: uppercase;
+}
+
+header {
+    margin-top: 20px;
+    width: 100%;
+    background: #a64dff;
+}
+
+nav {
+    margin: 0 auto;
+    width: 900px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #9fa0b2;
+    background: #eeeeee;
+}
