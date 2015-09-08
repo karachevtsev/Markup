@@ -1,0 +1,555 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/layout";
+@import "compass/typography";
+@import "compass/utilities";
+
+$blue: #3498db;
+$font: Arial, Helvetica, sans-serif;
+$hcolor: #fff;
+$txtcolor: #333333;
+
+
+
+body {
+  	font-family: $font;
+  	margin: 0 auto;
+  	background: #fff;
+  	
+	min-width: 320px; 
+	max-width: 800px; 
+}
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;  
+}
+
+.main-header {
+	// width: 320px;
+	// margin: 0 auto;
+	background: $blue;
+	padding-top: 16px; 
+	padding-bottom: 11px;
+} 
+	.container {
+		// width: 300px;
+  		//margin: 0 auto;
+  		text-align: center;
+  		.logo {
+		    a.logo-link {
+		    	display: inline-block;
+		    	width: 51px;
+			    height: 51px;
+			    margin: 0 auto;
+			    border: 2px solid #fff;
+			    border-radius: 50%;
+			    line-height: 49px;
+			    font-size: 20px;
+			    text-align: center;
+			    color: #fff;
+			    text-decoration: none; 
+		    }
+    	}
+    	.big-heading {
+		    h1 {
+		    	position: relative;
+		        width: 176px;
+		        margin: 0 auto;  
+		        font-size: 20px;
+		        line-height: 37px;
+		        text-transform: uppercase;
+		        color: $hcolor;
+		    }
+		    h1:after {
+		    	content: "";
+			    background: #3070a8;
+			    position: absolute;
+			    height: 1px;
+			    bottom: 0;
+			    left: 0;
+			    right: 0;
+		    }
+		}
+		.social {
+	        margin: 0 auto;
+	        padding-top: 6px; 
+	        font-size: 13px;
+	        line-height: 35px;
+	        color: $hcolor;
+	        text-align: center;
+	        .social-links {
+	        	float: right;
+	        	margin-top: 6px;
+	        	margin-left: 3px; 
+	        }
+	      	a.social-btn-fb:before {
+	        	float: left;
+	        	margin-right: 6px;
+		        content: "";
+		        width: 22px;
+		        height: 22px;
+		        background: transparent url("../image/icon-fb.png") no-repeat;
+	        }
+	        a.social-btn-fb:hover:before {
+	        	opacity: 0.7; 
+	        }
+	        a.social-btn-gl:before {
+	        	float: left;
+	            margin-right: 6px;
+	            content: "";
+	            width: 22px;
+	            height: 22px;
+	            background: transparent url("../image/icon-gl.png") no-repeat;
+	        }
+	        a.social-btn-gl:hover:before {
+	        	opacity: 0.7; 
+	        }
+	        a.social-btn-tw:before {
+	        	float: left;
+	            margin-right: 6px;
+	            content: "";
+	            width: 22px;
+	            height: 22px;
+	            background: transparent url("../image/icon-tw.png") no-repeat;
+	        }
+	        a.social-btn-tw:hover:before {
+	        	opacity: 0.7; 
+	        }
+	      }	
+	}
+  		
+
+// *** Header style
+
+.banner {
+	position: relative;
+	text-align: center;
+	.container {
+  		.banner-header {
+  			background: #2980b9;
+  			color: $hcolor;
+  			padding-top: 35px;
+  			padding-bottom: 185px; 
+  			.banner-header-title {
+  				h2 {
+  					margin: 0 auto; 
+  					font-size:  40px;
+  					line-height: 42px;
+  					font-weight: bold;
+  					text-transform: uppercase;
+  					margin-bottom: 14px; 
+  				}	
+  			}
+  			.banner-header-text {
+  				padding: 0 35px; 
+  				font-size:  16px;
+  				line-height: 28px;
+  			}
+  		}
+  		.banner-main {
+			padding: 0px 7%; 
+			padding-top: 370px;
+			padding-bottom: 40px; 
+  			background: #F2F2F2;
+  			-webkit-border-radius: 0 0 320px/0 0 1px;
+			-moz-border-radius: 0 0 320px/0 0 1px;
+			border-radius: 0 0 320px/0 0 1px;
+			background-color: #f2f2f2;
+			-webkit-box-shadow: inset 0 -1px rgba(0,0,0,.05);
+			-moz-box-shadow: inset 0 -1px rgba(0,0,0,.05);
+			box-shadow: inset 0 -1px rgba(0,0,0,.05);
+			color: $txtcolor;
+  			.banner-main-title {
+  				font-size:  15px;
+  				line-height: 42px;
+  				font-weight: bold;
+  				text-transform: uppercase;
+  			}
+  			.banner-main-text {
+  				font-size:  12px;
+  				line-height: 20px;
+  			}
+  		}
+  		.banner-form {
+  			position: absolute;
+  			right: 3%;
+  			top: 19%; 
+  			width: 94%;
+			padding-top: 34px;
+			background-color: #fff;
+			-webkit-box-shadow: inset 0 -5px #3498db;
+			-moz-box-shadow: inset 0 -5px #3498db;
+			box-shadow: inset 0 -5px #3498db;
+			.banner-form-title {
+				h4 {
+					font-size:  20px;
+  					line-height: 20x;
+  					text-transform: uppercase;
+  					color: $txtcolor;
+  					margin-bottom: 29px; 
+				}	
+			}
+			.registration-form {
+				select {
+					-webkit-appearance: none;
+					-moz-appearance: none;
+					text-indent: 0.01px; 
+					text-overflow: '';
+					-ms-appearance: none;
+					appearance: none!important;
+					background-image: url('../image/select-arrow.png');
+					background-position: right center;
+					background-repeat: no-repeat;
+					width: 87%;
+					margin-bottom: 8px;
+					padding: 7px 15px;
+					padding-right: 25px;
+					font-family: $font;
+					font-size: 15px;
+					line-height: 20px;
+					color: $txtcolor;
+					border: solid 1px #e6e6e6;
+					outline: none;
+					background-color: #F2F2F2;
+					-moz-box-sizing: border-box; 
+    				box-sizing: border-box; 
+				}
+				textarea::-webkit-resizer {
+    				display: none;
+				}
+				textarea {
+					margin-bottom: 8px;
+				}
+
+				input[type="number"]::-webkit-inner-spin-button {
+    				-webkit-appearance: none;
+				} 
+				input[type="text"],
+				input[type="tel"], 
+				input[type="number"],
+				input[type="email"],
+				textarea {				 
+					width: 87%;
+					margin-bottom: 8px;
+					padding: 7px 15px;
+					font-family: $font;
+					font-size: 15px;
+					line-height: 20px;
+					color: $txtcolor;
+					border: solid 1px #e6e6e6;
+					outline: none;
+					background: #F2F2F2;
+					resize: none;
+					-moz-box-sizing: border-box; 
+    				box-sizing: border-box; 
+				}
+				input::-webkit-input-placeholder {
+					font-family: $font;
+					font-size: 15px;
+					line-height: 20px;
+					color: $txtcolor;
+				}
+				input::-moz-input-placeholder {
+					font-family: $font;
+					font-size: 15px;
+					line-height: 20px;
+					color: $txtcolor;
+				}
+				textarea::-webkit-input-placeholder {
+					font-family: $font;
+					font-size: 15px;
+					line-height: 20px;
+					color: $txtcolor;
+				}
+				textarea::-moz-input-placeholder {
+					font-family: $font;
+					font-size: 15px;
+					line-height: 20px;
+					color: $txtcolor;
+				}
+				input:focus {
+					outline: none;
+  					box-shadow: 0 0 1px 1px #4d90f0;
+				}
+				input:focus::-moz-placeholder {
+  					color: transparent;
+				}
+				input:focus::-webkit-input-placeholder {
+  					color: transparent;
+				}
+				textarea:focus {
+					outline: none;
+  					box-shadow: 0 0 1px 1px #4d90f0;
+				}
+				textarea:focus::-moz-placeholder {
+					color: transparent;
+				}
+				textarea:focus::-webkit-input-placeholder {
+					color: transparent;
+				}
+				.btn {
+					margin-top: 16px;
+					margin-bottom: 30px;
+					width: 200px;
+					height: 50px;
+					font-size: 20px;
+					line-height: 28px;
+					background: #e74c3c;
+					color: #FFF;
+					cursor: pointer;
+					outline: none;
+					border: none; 
+				}
+				.btn:hover{
+					background: #E73F2D; 
+				}
+			}			
+  		}
+  	}
+}
+// *** Banner style    
+
+.features {
+	text-align: center;
+	margin-bottom: 30px; 
+	.container {
+		border-bottom: 1px solid #e6e6e6;
+		.features-inner {
+			.features-ineer-title {
+				h5 {
+					margin-bottom: 23px; 
+					font-size: 20px;
+					line-height: 42px;
+					text-transform: uppercase;
+					color: #3498db;  
+				}
+			}
+			.features-inner-items {
+				.item {
+					margin-bottom: 50px; 
+					.image-item {
+						margin-bottom: 20px;
+						img {
+							vertical-align: bottom;
+						} 
+					}
+					.item-title {
+						font-size: 15px;
+						line-height: 42px;
+						color: $txtcolor; 
+						text-transform: uppercase;
+						font-weight: bold;
+					}
+					.item-text {
+						padding: 0px 7%;
+						margin-bottom: 20px;  
+						p {
+							font-size: 13px;
+							line-height: 20px;
+							color: $txtcolor; 
+						}
+					}
+					.view {
+					    a {
+					    	display: inline-block;
+					    	width: 52px;
+					    	height: 52px;
+					    	font-size: 13px;
+						    line-height: 52px;
+						    text-transform: uppercase;
+						    text-align: center;
+						    color: $txtcolor;
+					    	text-decoration: none;
+					    	border: 1px solid #e6e6e6;
+					    	border-radius: 50%;
+					    }
+					    a:hover {
+					    	text-shadow: 0px 0px 9px rgba(150, 150, 150, 0.8);
+							background: #f2f2f2;
+							border: 1px solid #d3d1d1;
+						} 
+					}
+				}
+			}
+		}
+	}
+}
+// *** Features style
+
+.feedbacks {
+	position: relative;
+	background: linear-gradient(to bottom, #fff 0%, #fff calc(100% - 240px), #f2f2f2 calc(100% - 240px), #f2f2f2 100%);
+	.container {
+		text-align: center;
+		padding: 0 3%;
+		.feedbacks-title {
+			margin-bottom: 25px; 
+			font-size: 20px;
+			line-height: 30px;
+			color: $blue;
+			text-transform: uppercase;   
+		}
+		.feedbacks-slider {
+			margin-bottom: 230px; 
+			.feedbacks-slider-nav {
+				margin-bottom: 30px; 
+				a {
+					display: inline-block;
+					width: 38px;
+					height: 38px;
+					line-height: 36px;   
+					border: 1px solid #e6e6e6;
+					border-radius: 50%;
+				}
+				a:hover {
+					background: #f2f2f2; 
+				}		
+				.prev:before {
+					float: left;
+		   			margin-left: 11px;
+		   			content: "\2039";
+		   			font-size: 40px;
+					color: #959595;
+				}
+				.prev:hover:before {
+				 	color: #484848;
+				}
+				.next:before {
+					float: right;
+		   			margin-right: 11px;
+		   			content: "\203A";
+		   			font-size: 40px;
+					color: #959595 ;
+				}
+				.next:hover:before {
+				 	color: #484848;
+				}
+			}
+			.feedbacks-text {
+				position: relative;
+				p {
+					font-size: 13px;
+					line-height: 20px;
+					text-align: left;
+					color: $txtcolor;
+				}
+				.feedbacks-text:before {
+					position: absolute;
+					top: -20px;
+					left: 0;
+					font-size: 50px;
+					line-height: 42px;
+					font-weight: bold; 
+					color: #f2f2f2;   
+			        content: "\201C ";
+			        width: 19px;
+			        height: 15px;  
+				}
+				.feedbacks-text:after {
+					position: absolute;
+					bottom: -10px;
+					right: 0;
+					font-size: 50px;
+					line-height: 42px;
+					font-weight: bold; 
+					color: #f2f2f2;    
+			        content: "\201D";
+			        width: 19px;
+			        height: 15px;   
+				}
+				.feedbacks-autor {
+					font-size: 13px;
+					line-height: 42px;
+					font-weight: bold; 
+					text-transform: uppercase; 
+					text-align: right;
+					color: $txtcolor;
+				}
+				.feedbacks-autor:before {
+					content: "\2013";
+					font-size: 15px;
+					line-height: 42px;
+					font-weight: bold;
+				}
+			}
+		}
+		.action-button {
+			a {
+				position: relative;
+				max-width: 300px; 
+				display: inline-block;
+				margin-bottom: 50px; 
+				background: #E74C3C;
+				padding:14px 30px 55px 30px;
+				font-size: 20px;
+				line-height: 32px;
+				color: #FFF; 
+				text-transform: uppercase;   
+				text-decoration: none; 
+				z-index: 100;
+			}
+			a:after {
+				display: inline-block;
+				position: absolute;
+				bottom: 14px;
+				right: 45%;  
+				width: 32px;
+				height: 32px;
+				line-height: 30px;   
+				border: 1px solid #fff;
+				border-radius: 50%;
+		   		content: "\203A";
+		   		font-size: 30px;
+				color: #fff ;
+			}
+		}
+		.action-button:after {
+			position: absolute;
+			content: "";
+			width: 225px;
+	        height: 364px;
+	        background: transparent url("../image/student.png") no-repeat;
+	        bottom: 0;
+	        left: 50%;
+	       	margin-left:-100px;
+	        z-index: 1;
+		}				
+	}
+}
+// *** Feedbacks style
+.main-footer {
+	// width: 320px;
+	// margin: 0 auto;
+	background: $blue;
+	padding-top: 16px; 
+	padding-bottom: 11px;
+	.container {
+		.social {
+			margin-bottom: 40px; 
+		}
+	}
+	.footer-info {
+		font-size: 13px;
+		line-height: 18px;
+		color: #fff;
+		margin-bottom: 65px;
+		.footer-designed {
+			a {
+				text-decoration: none;
+				font-size: 13px;
+				line-height: 18px;
+				color: #fff
+			}
+			a:hover {
+				color: #F2F2F2 
+			}
+		}  
+	}
+} 
