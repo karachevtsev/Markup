@@ -8,20 +8,20 @@
 <body>
     <header class="main-header">
         <div class="container">
-            <div class="logo">
-                <a href="#" class="logo-link">ABC</a>
-            </div>
-            <div class="big-heading">
-                <h1>ABC University</h1>
-            </div>
-            <div class="social  clearfix">
-                Connect:
-                <div class="social-links">
+            <div class="main-info clearfix">
+                <div class="logo">
+                    <a href="#" class="logo-link">ABC</a>
+                </div>
+                <div class="big-heading">
+                    <h1>ABC University</h1>
+                </div>
+                <div class="social">
+                    <span class="social-text">Connect:</span>
                     <a href="#" class="social-btn social-btn-fb"></a>
                     <a href="#" class="social-btn social-btn-gl"></a>
                     <a href="#" class="social-btn social-btn-tw"></a>
                 </div>
-            </div>
+            </div>      
         </div>
     </header>
     <!-- Header content -->
@@ -57,9 +57,7 @@
                 </div>
                 <form class="registration-form" action="/echo" method="post">
                     <div class="field">
-                        <select name="select-course" id="">
-                            <option value="custom">Select Course</option>
-                        </select>
+                        <input class="select" type="text" name="first-name" id="first-name" placeholder="Select Course"/>
                     </div>
                     <div class="field">
                         <input type="text" name="first-name" id="first-name" placeholder="First Name"/>
@@ -99,40 +97,46 @@
                     <div class="item">
                         <div class="image-item">
                             <img src="image/image-1.jpg" alt="" width="290px" height="159px"></div>
-                        <div class="item-title">Quality environment</div>
-                        <div class="item-text">
-                            <p>
-                                We guide our students to find their own academic paths by helping them to reason, analyze and understand in unprecedented ways. The undergraduate experience at Duke is characterized by a spirit of academic energy, exploration and challenge.
-                            </p>
-                        </div>
-                        <div class="view">
-                            <a href="#">View</a>
+                        <div class="item-info">
+                            <div class="item-title">Quality environment</div>
+                            <div class="item-text">
+                                <p>
+                                    We guide our students to find their own academic paths by helping them to reason, analyze and understand in unprecedented ways. The undergraduate experience at Duke is characterized by a spirit of academic energy, exploration and challenge.
+                                </p>
+                            </div>
+                            <div class="view">
+                                <a href="#">View</a>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="image-item">
                             <img src="image/image-2.jpg" alt="" width="290px" height="159px"></div>
-                        <div class="item-title">Quality programs</div>
-                        <div class="item-text">
-                            <p>
-                                We are a research university with resources to connect undergraduate education to the processes of inquiry and discovery. Duke students explore ideas by collaborating directly with our exceptional faculty in a program of study that focuses on interdisciplinary exploration.
-                            </p>
-                        </div>
-                        <div class="view">
-                            <a href="#">View</a>
+                        <div class="item-info">
+                            <div class="item-title">Quality programs</div>
+                            <div class="item-text">
+                                <p>
+                                    We are a research university with resources to connect undergraduate education to the processes of inquiry and discovery. Duke students explore ideas by collaborating directly with our exceptional faculty in a program of study that focuses on interdisciplinary exploration.
+                                </p>
+                            </div>
+                            <div class="view">
+                                <a href="#">View</a>
+                            </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="image-item">
                             <img src="image/image-3.jpg" alt="" width="290px" height="159px"></div>
-                        <div class="item-title">Excellent teachers</div>
-                        <div class="item-text">
-                            <p>
-                                A student's education doesn't end at the classroom door. We provide an incredible variety of opportunities for students to enhance and supplement in-class learning with hands-on experiences, service in the community—both locally and globally—and development of leadership skills.
-                            </p>
-                        </div>
-                        <div class="view">
-                            <a href="#">View</a>
+                        <div class="item-info">
+                            <div class="item-title">Excellent teachers</div>
+                            <div class="item-text">
+                                <p>
+                                    A student's education doesn't end at the classroom door. We provide an incredible variety of opportunities for students to enhance and supplement in-class learning with hands-on experiences, service in the community—both locally and globally—and development of leadership skills.
+                                </p>
+                            </div>
+                            <div class="view">
+                                <a href="#">View</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -141,21 +145,20 @@
     </section>
     <!-- Features content -->
     <section class="feedbacks">
-        <div class="container">
+        <div class="container clearfix">
             <div class="feedbacks-title">
                 What Students Says
-                <br>About Our University</div>
-            <div class="feedbacks-slider">
-                <div class="feedbacks-slider-nav">
-                    <a href="#" class="prev disabled"></a>
-                    <a href="#" class="next"></a>
-                </div>
-                <div class="feedbacks-text">
-                    <p>
-                        We guide our students to find their own academic paths by helping them to reason, analyze and understand in unprecedented ways. The undergraduate experience at Duke is characterized by a spirit of academic energy, exploration and challenge.
-                    </p>
-                    <div class="feedbacks-autor"> Amanda Persch</div>
-                </div>
+                About Our University
+            </div>
+            <div class="feedbacks-nav">
+                <a href="#" class="prev disabled"></a>
+                <a href="#" class="next"></a>
+            </div>
+            <div class="feedbacks-text clearfix">
+                <p>
+                    We guide our students to find their own academic paths by helping them to reason, analyze and understand in unprecedented ways. The undergraduate experience at Duke is characterized by a spirit of academic energy, exploration and challenge.
+                </p>
+                <div class="feedbacks-autor"> Amanda Persch</div>
             </div>
             <div class="action-button">
                 <a href="#">Click Here Now to Get Started</a>
@@ -165,27 +168,46 @@
     <!-- Feedbacks content -->
     <footer class="main-footer">
         <div class="container">
-            <div class="logo">
-                <a href="#" class="logo-link">ABC</a>
-            </div>
-            <div class="big-heading">
-                <h1>ABC University</h1>
-            </div>
-            <div class="social  clearfix">
-                Connect:
-                <div class="social-links">
-                    <a href="#" class="social-btn social-btn-fb"></a>
-                    <a href="#" class="social-btn social-btn-gl"></a>
-                    <a href="#" class="social-btn social-btn-tw"></a>
+
+
+
+            <div class="main-info clearfix">
+                
+                <div class="logo">
+                    <a href="#" class="logo-link">ABC</a>
                 </div>
-            </div>
-            <div class="footer-info">
-                <div class="footer-copyright">© 2014 by ABC UNIVERSITY OF LIFE.</div>
-                <div class="footer-created">Proudly created with unbounce.com.</div>
-                <div class="footer-designed">
-                Design by <a href="#">Design-What.com</a>
+                
+                <div class="big-heading">
+                    <h1>ABC University</h1>
                 </div>
-            </div>
+                
+                <div class="footer-info-wrap " >
+                    
+                    <div class="social">
+                        <span class="social-text">Connect:</span>
+                        <a href="#" class="social-btn social-btn-fb"></a>
+                        <a href="#" class="social-btn social-btn-gl"></a>
+                        <a href="#" class="social-btn social-btn-tw"></a>
+                    </div>
+                
+                    <div class="footer-info">
+                        <div class="footer-copyright">© 2014 by ABC UNIVERSITY OF LIFE.</div>
+                        <div class="footer-created">Proudly created with unbounce.com.</div>
+                        <div class="footer-designed">
+                        Design by <a href="#">Design-What.com</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> 
+
+
+
+
+
+
+            
         </div>
     </footer>
 
