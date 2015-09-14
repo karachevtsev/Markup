@@ -29,6 +29,11 @@ body {
 	clear: both;  
 }
 
+.container {
+	outline: 1px solid red; 
+}
+
+
 //******** header style 
 .main-header {
 	background: $blue;
@@ -671,7 +676,8 @@ body {
 			.container {
 				padding: 0 22px; 
 				.main-info {
-					width: 100%; 
+					padding: 0;
+					margin: 0; 
 					text-align: left;
 					.logo,
 					.big-heading,
@@ -714,10 +720,10 @@ body {
 								margin-bottom: 0;
 								float: none;
 							}
-						}	
-					}
+					}	
 				}
 			}
+		}
 //******** footer media style min-width: 800px
 }	
 //***************************** media style min-width: 800px
